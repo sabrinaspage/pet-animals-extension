@@ -1,0 +1,17 @@
+{
+  "name": "pet-animals-extension",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Chrome extension: hover over an animal, cursor becomes a petting hand.",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.22.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
